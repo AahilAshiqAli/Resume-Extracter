@@ -3,14 +3,17 @@
 <br>
 To run this project, you would need to make a folder named job desc in which you will put your job description file and then you will have to make a folder named cvs txt in which you will have to add cvs files <br>
 To run this code, get into Project directory and run this all commands<br>
-First install all these libraries<br>
-pip install streamlit<br>
-pip install spacy<br>
-python -m spacy download en_core_web_sm<br>
-pip install nltk<br>
-pip install numpy<br>
-pip install scipy<br>
-pip install pandas<br>
-<br>
+
+```bash
+pip install streamlit
+pip install spacy
+python -m spacy download en_core_web_sm
+pip install nltk
+pip install numpy
+pip install scipy
+pip install pandas
+```
 Then to run streamlit project<br>
+```bash
 streamlit run Project.py<br>
+```
